@@ -10,15 +10,13 @@ client = Groq()
 # This one line creates our web app. We will hang all our endpoints on it.
 app = FastAPI()
 
-
 # -------------------------------------------------------------------
 # Part 3: our first endpoint (a simple GET)
 # Open http://127.0.0.1:8000/ in the browser to see this.
 # -------------------------------------------------------------------
 @app.get("/")
 def home():
-    return {"message": "Welcome, Kaise ho aap?"}
-
+    return {"message": "hello, world!"}
 
 # -------------------------------------------------------------------
 # Part 4: an endpoint with inputs (query parameters)

@@ -1,5 +1,5 @@
 [project]
-name = "agentic-ai"
+name = "learning-ai-engineer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -35,7 +35,7 @@ dependencies = [
 ]
 
 [project.scripts]
-agentic-ai = "agentic_ai:main"
+learning-ai-engineer = "learning_ai_engineer:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]

@@ -2,7 +2,7 @@
 The frontend: a Streamlit dashboard for a business owner.
 
 Paste customer reviews (one per line), click Analyze, and see the results.
-This app does NOT call Gemini directly. It calls OUR OWN backend (api.py),
+This app does NOT call Groq directly. It calls OUR OWN backend (api.py),
 exactly the way we called external APIs in Lesson 9.
 
 Run it (in a SECOND terminal, while api.py is also running):
